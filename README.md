@@ -1,4 +1,4 @@
-# rebMIGraph
+# MIAGraph
 
 We present 2 noteboks for both settings (TSTF and TSTS) described in our paper. This is anonymized for reviewers to run our code and reproduce the results recorded in the paper.
 
