@@ -6,6 +6,6 @@ We present 2 noteboks for both settings (TSTF and TSTS) described in our paper. 
 
 **TSTS:** Train on a subgraph, test on another subgraph. Different subgraphs are used for training and testing the model. Only the structural infomation of selected graph is used during testing.
 
-The **model_type** and **data_type** can be changed to view different performance across different models and dataset.
+The **model_type**, **data_type** and **defense_type**can be changed to view different performance across different models and dataset.
 
 We also included the **.py** file as the **.ipynb** does not render well in the anonymous repository.
