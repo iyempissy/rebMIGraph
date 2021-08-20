@@ -14,7 +14,9 @@ To run relaxation:
 '''
 
 '''
-To run noise addition to the posteriors, set isoutput_perturb_defense = True
+To run vanpd, set isoutput_perturb_defense = True
+To run lbp_defense, set  use_binning = True, use_lbp = True and num_bins
+To run nsd_defense, set use_nsd = True and how_many_edges_k
 '''
 import os.path as osp
 
@@ -68,7 +70,8 @@ num_of_runs = 2#11 #  # this runs the program 10 times
 
 
 # Different defense mechanisms
-def lbp_defense(pred, num_bins, beta, use_lbp):
+def lbp_defense(pred, num_
+                s, beta, use_lbp):
     # #Binned version========>
     pred = pred.cpu().detach().numpy()
 
