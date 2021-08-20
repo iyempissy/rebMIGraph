@@ -10,7 +10,7 @@ The **model_type** and **data_type** can be changed to view different performanc
 
 We also included the **.py** file as the **.ipynb** does not render well in the anonymous repository.
 
-### Performance on Cora (TSTF setting)
+<!-- ### Performance on Cora (TSTF setting)
 Model | Target Train | Target Test | Attack Precision | Attack Recall | Attack AUROC
 --- | --- | --- | --- |--- |---
 GCN | 0.82 ± 0.01 | 0.85 ± 0.02 | 0.76 ± 0.02 | 0.75 ± 0.02 | 0.754 ± 0.02
@@ -28,3 +28,4 @@ GCN | 0.81 ± 0.01 | 0.61 ± 0.01 | 0.70 ± 0.02  | 0.69 ± 0.02  | 0.685 ± 0.0
 GAT | 0.76 ± 0.01 | 0.55 ± 0.02 | 0.69 ± 0.02  | 0.68 ± 0.02  | 0.675 ± 0.02 
 SGC | 0.72 ± 0.02 | 0.56 ± 0.02 | 0.68 ± 0.02  | 0.68 ± 0.02  | 0.676 ± 0.02 
 SAGE | 0.99 ± 0.002 | 0.70 ± 0.02 |**0.83 ± 0.01**   |0.82 ± 0.01   |0.819 ± 0.01
+ -->
